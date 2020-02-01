@@ -1,1 +1,3 @@
-function 
+function init(){
+    console.log
+}

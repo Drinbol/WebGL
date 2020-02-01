@@ -16125,7 +16125,7 @@
 
 				if ( extension === null ) {
 
-					console.error( 'THREE.WebGLIndexedBufferRenderer: using THREE.InstancedBufferGeometry but hardware does not support extension ANGLE_instanced_arrays.' );
+					console.error( 'THREE.WebGLIndexedBufferRenderer: using THREE.InstancedBufferGe ometry but hardware does not support extension ANGLE_instanced_arrays.' );
 					return;
 
 				}
