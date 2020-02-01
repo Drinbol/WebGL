@@ -1,23 +1,26 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<title>My first three.js app</title>
-		<style>
-			body { margin: 0; }
-			canvas { width: 100%; height: 100% }
-		</style>
-	</head>
-	<body>
-		<script src="js/three.js"></script>
-		<script>
-			// Our Javascript will go here.
-            var scene = new THREE.Scene();
-            var camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 0.1, 1000 );
-            var renderer = new THREE.WebGLRenderer();
-            renderer.setSize( window.innerWidth, window.innerHeight );
-            document.body.appendChild( renderer.domElement );
-            
-		</script>
-	</body>
+
+<head>
+    <title>Example 01.01 - Basic skeleton</title>
+    <meta charset="UTF-8" />
+    <script type="text/javascript" charset="UTF-8" src="../libs/three/three.js"></script>
+    <script type="text/javascript" charset="UTF-8" src="../libs/three/controls/TrackballControls.js"></script>
+    <script type="text/javascript" src="../js/plain.js"></script>
+    <link rel="stylesheet" href="../../css/default.css">
+</head>
+
+<body>
+    <!-- Div which will hold the Output -->
+    <div id="webgl-output"></div>
+
+    <!-- Javascript code that runs our Three.js examples -->
+    <script type="text/javascript">
+        (function () {
+            // contains the code for the example
+            init()
+        })();
+    </script>
+</body>
+
 </html>
